@@ -14,7 +14,6 @@ services:
       - fullstack
 
   fullstack-postgres:
-    platform: linux/x86_64
     image: postgres:latest
     container_name: full_db_postgres
     environment:
